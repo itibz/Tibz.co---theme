@@ -1,30 +1,18 @@
 <footer class="site-footer">
   <div class="container">
-    <div class="col-xs-12">
-      {% if theme.variables.twitter_username or theme.variables.facebook_url or theme.variables.linkedin_url or theme.variables.instagram_username or theme.variables.pinterest_username %}
-        <div class="typed-social-wrapper">
-          {% if theme.variables.twitter_username %}
-            <a href="https://twitter.com/{{ theme.variables.twitter_username }}" class="typed-social typed-social-twitter"></a>
-          {% endif %}
-
-          {% if theme.variables.facebook_url %}
-            <a href="{{ theme.variables.facebook_url }}" class="typed-social typed-social-facebook"></a>
-          {% endif %}
-
-          {% if theme.variables.linkedin_url %}
-            <a href="{{ theme.variables.linkedin_url }}" class="typed-social typed-social-linkedin"></a>
-          {% endif %}
-
-          {% if theme.variables.instagram_username %}
-            <a href="https://www.instagram.com/{{ theme.variables.instagram_username }}" class="typed-social typed-social-instagram"></a>
-          {% endif %}
-
-          {% if theme.variables.pinterest_username %}
-            <a href="https://pinterest.com/{{ theme.variables.pinterest_username }}" class="typed-social typed-social-pinterest"></a>
-          {% endif %}
-        </div>
-      {% endif %}
-    </div>
+<div class="col-xs-12">
+<p align="center" style="font-size: 30px;">
+<a href="http://twitter.com/itibz" class="icon-link" alt="@iTibz on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+<a href="http://instagram.com/itibz" class="icon-link" alt="@iTibz on Instagram"><i class="fa fa-instagram" aria-hidden="true"></i>
+</a>
+<a href="http:/snapchat.com/add/itibz" class="icon-link" alt="iTibz on Snapchat"><i class="fa fa-snapchat" aria-hidden="true"></i>
+</a>
+<a href="/tags/portfolio" class="icon-link" alt="Check out my work portfolio"><i class="fa fa-briefcase" aria-hidden="true"></i>
+</a>
+<a href="http://digest.digital" class="icon-link" alt="Listen to my podcast"><i class="fa fa-microphone" aria-hidden="true"></i>
+</a>
+<a href="http://soundcloud.com/itibz/sets/audiologs" class="icon-link" alt="Check out my Audio Journey on Soundcloud"><i class="fa fa-soundcloud" aria-hidden="true"></i>
+</a></p><br> </div>
     
     <div class="col-xs-12">
       {{ site.footer }}
